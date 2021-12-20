@@ -1,2 +1,2 @@
-const domain = document.getElementById('domain');
-domain.innerHTML = document.domain;
+const nameDomain = document.getElementById('domain');
+nameDomain.innerHTML = document.domain;
