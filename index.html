@@ -12,24 +12,76 @@
 </head>
 
 <body class="min-vh-100 d-flex justify-content-center align-items-center">
-    <div class="container">
-        <div class="main">
-            <h1 class="h1">خوش آمدید</h1>
-            <div class="text">
-                <p>دامنه <b id="domain"></b> آزاد می‌باشد. </p>
-                <p>جهت خرید این دامنه با شماره زیر تماس بگیرید</p>
+    <div class="container row ">
+        <div class="col-12 col-md-6 justify-content-center d-flex flex-column text-center text-md-end" id="info">
+            <div class="h1 main-content">
+                <span id="domain" class="d-block"></span>
+                <span class="d-block">برای خرید آزاد می‌باشد</span>
             </div>
-            <div class="connect">
-                <span>
-                    <a href="#" class="another">لیست دامنه‌ها</a>
-                </span>
-                <span>
-                    <a href="tel:09127506692" class="call">۰۹۱۲۷۵۰۶۶۹۲</a>
-                </span>
+            <div class="mt-3">
+                <p>جهت رزرو دامنه و اطلاع از نحوه واگذاری تماس بگیرید</p>
             </div>
+            <a href="tel:+989101536692">
+                <button id="btn" class="btn btn-dark rounded-pill">
+                    ۰۹۱۰۱۵۳۶۶۹۲
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill me-1" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg>
+                </button>
+            </a>
+        </div>
+        <div class="col-12 col-md-6 mt-5 mt-md-0" id="table">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">رد</th>
+                        <th scope="col">آدرس دامنه</th>
+                        <th scope="col">وضعیت</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">۱</th>
+                        <td>shahrshensi.ir</td>
+                        <td><span class="badge bg-success">آزاد</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">۲</th>
+                        <td>shahrshensi.ir</td>
+                        <td><span class="badge bg-warning">رزرو شده</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">۳</th>
+                        <td>shahrshensi.ir</td>
+                        <td><span class="badge bg-success">آزاد</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">۴</th>
+                        <td>shahrshensi.ir</td>
+                        <td><span class="badge bg-success">آزاد</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">۵</th>
+                        <td>shahrshensi.ir</td>
+                        <td><span class="badge bg-danger">واگذار شده</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">۶</th>
+                        <td>shahrshensi.ir</td>
+                        <td><span class="badge bg-warning">رزرو شده</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">۷</th>
+                        <td>shahrshensi.ir</td>
+                        <td><span class="badge bg-success">آزاد</span></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
-
+    <footer class="position-fixed bottom-0 bg-black text-white text-center">
+        طراحی با 💛 <a href="http://gerehagency.ir" class="text-warning">آژانس خلاقیت گره</a>
+    </footer>
     <script src="assets/js/script.js"></script>
 </body>
 
