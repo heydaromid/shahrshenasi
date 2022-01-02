@@ -4,11 +4,10 @@ nameDomain.innerHTML = `دامنه ${document.domain}`;
 
 
 let infoDomain = {
-    num : ["۲","۳","۴"],
-    nameDomain : ["qomshenasi.ir","taybadshenasi.ir","gerehagency.ir"],
-    state : [1,0,0],
+    num : ["۱","۲","۳","۴","۵","۶","۷","۸","۹","۱۰",],
+    nameDomain : ["ahvazshenasi.ir","amolshenasi.ir","ardebilshenasi.ir","qomshenasi.ir","andimeshkshenasi.ir","arakshenasi.ir","taybadshenasi.ir","babolshenasi.ir","bamshenasi.ir","bandarabbasenasi.ir"],
+    state : [1,1,1,0,1,1,0,1,1,1],
 };
-console.log(infoDomain.num.length);
 // Create domain table
 const tableBody = document.querySelector(`#tbody`);
 for (let i = 0 ; i < infoDomain.num.length ; i++) {
