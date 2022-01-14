@@ -1,6 +1,6 @@
 // Show domain name
 const nameDomain = document.getElementById('domain');
-nameDomain.innerHTML = `دامنه ${document.domain}.ir`;
+nameDomain.innerHTML = `دامنه ${document.domain}`;
 
 const docId = 'KV0Sp-tiTy';
 const tableIdOrName = 'grid-PMiL5HcEeN';
@@ -65,7 +65,7 @@ const creatTable = (tableContent) => {
         tr.appendChild(domainTd);
         tr.appendChild(statusTd);
         tableBody.appendChild(tr);
-    };
+    }
 }
 
 getData();
